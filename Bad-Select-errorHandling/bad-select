@@ -1,0 +1,17 @@
+Flag 5
+
+Step 1: go to http://192.168.1.100/?page=survey
+
+Step 2: Inspect the page element
+
+Step 3: Change any option in select to a value that isn't in the original range
+
+Step 4: Select your newly created value
+
+Well done you got your fifth flag guys
+
+
+
+Fix for flag 5
+
+Front end needs to Validate that the information coming in is valid,  also that data needs to rather be on the server side

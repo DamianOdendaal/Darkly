@@ -1,0 +1,16 @@
+Capture the third flag ladies and gentlemen!
+
+Step 1: Where to find 
+http://192.168.1.100/?page=recover
+
+Step 2: Inspect element
+
+Step 3: Find the hidden email field while inspecting element and remove default value that was given
+
+Step 4: Hit enter
+
+Well done you have found the third flag of darkly
+
+Fix for third flag.
+
+Rather set sensative information on the backend rather than the frontend. A hidden field can still be viewed or editted by the client.

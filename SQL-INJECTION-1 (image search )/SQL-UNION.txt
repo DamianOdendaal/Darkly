@@ -32,3 +32,6 @@ sha 256 calculator result after passing in albatroz -->   f2a29020ef3132e01dd61d
 
 Well done you have found the second flag!
 
+Fix for second Flag 
+
+Make use of parameterised queries to avoid simple sql injection like this
