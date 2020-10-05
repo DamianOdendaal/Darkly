@@ -44,7 +44,3 @@ After running sha 256 calculator on the lowercased result = 10a16d834f9b1e4068b2
 
 Well done we found the first flag!
 
-
-Fix for first flag
-
-Make use of parameterised queries to avoid simple sql injection like this

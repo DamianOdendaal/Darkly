@@ -1,0 +1,1 @@
+Sensitive data should never be in cookies. Rather have it inside a session or server side

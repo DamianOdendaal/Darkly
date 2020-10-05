@@ -10,7 +10,3 @@ Step 3: Find the hidden email field while inspecting element and remove default 
 Step 4: Hit enter
 
 Well done you have found the third flag of darkly
-
-Fix for third flag.
-
-Rather set sensative information on the backend rather than the frontend. A hidden field can still be viewed or editted by the client.

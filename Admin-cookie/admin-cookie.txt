@@ -11,8 +11,3 @@ Step 4: Change the false to true,  so encrypt True with MD5 hash then replace th
 Step 5: refresh the page 
 
 Well done we have our fourth flag
-
-
-Fix for the fourth flag
-
-Sensitive data should never be in cookies. Rather have it inside a session or server side
