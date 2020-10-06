@@ -16,6 +16,14 @@ Well done we cracked the admin password
     file. The file is located at (/etc/shadow). 
     This has all the users with their password hashed.
 
+     /etc/passwd
+           User account information.
+
+       /etc/shadow
+           Secure user account information.
+
     Another thing to note is according to wikipedia shadow is one of the most used passwords, so maybe steer cleer 
+
+
 
 '''
