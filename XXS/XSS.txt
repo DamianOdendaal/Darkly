@@ -1,0 +1,17 @@
+Think we starting to lose count of all these flags
+Flag 7
+
+Step 1: go to http://192.168.1.100/index.php?page=feedback
+
+Step 2.) Inside any of the fields add html markup to see if instructions are executed,  example <b>Oh</b>
+--> in doing this you see that the instruction is executed and we can now go deeper
+
+Step 3.) Trying <script> alert("it works") </script> will only keep the  alert("it works") part and not the tags
+
+Step 4.) <body onload="alert("it works")"> will insert the alert but not produce flag
+
+Step to get flag.)  In messing around,  inside the name or the comment field you can put any characters from the words
+alert or script,  but they must be in order,  the whole word need not be there for the flag to appear
+
+
+Well done thats the 8th flag
