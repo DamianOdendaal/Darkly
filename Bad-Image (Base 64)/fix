@@ -1,0 +1,2 @@
+Before doing anything with any data that came in via the client will always without fail need to be sanitized
+also use a link to the picture instead of a variable that is processed 

@@ -1,0 +1,31 @@
+
+
+Many people are not aware that images can be inlined into html code.
+The method in which this is done is called base64 encoding.
+Base64 encoded images become part of the html and displays without loading anything instead of a web browser having to download the image
+
+
+Step 1.) go to http://192.168.1.100/index.php?page=media?src=nsa
+    once you are here you can change the value of source then see the sorry wrong answer indicating we on the right track
+
+
+Step 2.) Tried to change nsa to <script>alert("Working")</script>,  no luck there so we convert the same script into base 64
+
+Step 3.)  Replace nsa with the base 64 encoded string
+
+Note for Step 3
+'''
+    Something to keep in mind ,  because we are putting a base 64 string into the href attribute we are going to need to 
+    add something too so that it will work 
+
+    according to https://base64.guru/developers/html/link
+
+    it would look like this with the encoded string 
+
+    data:text/html;base64,PHNjcmlwdD5hbGVydCgnVGhpcyB3b3JrcycpPC9zY3JpcHQ+
+
+    now replace nsa with the abovementioned string to get the flag
+
+'''
+
+Well done we found another flag
