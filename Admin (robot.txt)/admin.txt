@@ -1,0 +1,27 @@
+Step 1.) on the home page type robots.txt into the search bar, thereafter 2 options are given back 
+
+Step 2.) Navigate to /whatever and download htpassword.  Inside we have admin details
+
+Step 3.) MD5 decode the string that was found inside the file you downloaded
+
+Step 4.) log into /admin using the decoded string and username you got inside the file
+
+
+
+Well done , we found yet another flag today guys
+
+
+
+Side notes:
+
+What is a robots.txt file?
+Robots.txt is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages on their website. 
+The robots.txt file is part of the the robots exclusion protocol (REP), a group of web standards that regulate how robots crawl the web, 
+access and index content, and serve that content up to users. The REP also includes directives like meta robots, as well as page-,
+ subdirectory-, or site-wide instructions for how search engines should treat links (such as “follow” or “nofollow”).
+
+In practice, robots.txt files indicate whether certain user agents (web-crawling software) can or cannot crawl parts of a website. 
+These crawl instructions are specified by “disallowing” or “allowing” the behavior of certain (or all) user agents.
+
+
+Learn more on https://moz.com/learn/seo/robotstxt

@@ -1,0 +1,9 @@
+1.) Disallow Directories, Not Specific Pages
+By listing specific pages to disallow, you are simply making it that much easier for bad actors to find the pages you want them to not find.
+If you disallow a directory, the nefarious person or robot might still be able to find the ‘hidden’ pages within the directory via brute force or
+ the inurl search operator but the exact map of the pages won’t be laid out for them.
+Be sure to include an index page, a redirect, or a 404 at the directory index level to ensure your files aren’t incidentally exposed via
+an “index of” page. If you create an index page for the directory level, certainly do not include links to the private content!
+
+
+learn more on https://www.searchenginejournal.com/robots-txt-security-risks/289719/#close
