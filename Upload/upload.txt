@@ -1,0 +1,6 @@
+Step 1.) Navigate to http://192.168.1.100/?page=upload
+
+Step 2.) Run the script which will upload the .php file as the type jpeg.
+
+
+Well done we found another flag
