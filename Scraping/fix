@@ -1,0 +1,3 @@
+Dont disallow specific pages rather entire directories,  also making use of a front end framework that has a router can help.  
+
+Avoid leaving sensitive information in a place that any user is able to get 
