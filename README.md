@@ -1,5 +1,5 @@
 <h1> Darkly </h1>
-<u>Dodo the hacker has awakened <u>
+<u>Dodo the hacker has awakened </u>
 
 A project that will help us understand the OWASP top ten
 (https://owasp.org/www-project-top-ten/)
@@ -15,7 +15,10 @@ Interesting things learned during this project
 <li> brute force password cracking </li> 
 <li> How dangerous it is not to sanitize data before using it </li>
 <li> What a shadow file is on a unix system </li>
+<li> What scraping is </li>
+<li> What spoofing is </li>
 <li> What directory/file traversal is </li>
  </ol>
 
 Got Help on Brute Force from Frederick Moor
+For scraping i got help from Nolin Reddy
