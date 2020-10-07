@@ -1,4 +1,4 @@
-flag 8
+
 
 Step 1: navigate to the http://192.168.1.100/?page=signin
 
@@ -23,6 +23,8 @@ Well done we cracked the admin password
            Secure user account information.
 
     Another thing to note is according to wikipedia shadow is one of the most used passwords, so maybe steer cleer 
+
+    Run man shadow to learn a little more about the Unix shadow password file
 
 
 

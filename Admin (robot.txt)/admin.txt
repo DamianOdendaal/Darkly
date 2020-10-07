@@ -15,6 +15,11 @@ Well done , we found yet another flag today guys
 Side notes:
 
 What is a robots.txt file?
+
+The robots.txt file is used to tell web crawlers and other well-meaning robots a few things about the structure of a website. 
+It is openly accessible and can also be read and understood quickly and easily by humans.
+
+
 Robots.txt is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages on their website. 
 The robots.txt file is part of the the robots exclusion protocol (REP), a group of web standards that regulate how robots crawl the web, 
 access and index content, and serve that content up to users. The REP also includes directives like meta robots, as well as page-,
