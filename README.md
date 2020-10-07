@@ -8,15 +8,14 @@ The project is like a game where we capture 14 flags,  we are going to have a lo
 
 Interesting things learned during this project
 
-<ul>
-1.) What a robot.txt file is 
-2.) SQL injection more in depth 
-3.) XSS more in depth 
-4.) brute force password cracking 
-5.) How dangerous it is not to sanitize data before using it 
-6.) What a shadow file is on a unix system
-7.) What directory/file traversal is 
-8.)
-<ul>
+<ol>
+<li> What a robot.txt file is </li>
+<li> SQL injection more in depth </li>
+<li> XSS more in depth </li>
+<li> brute force password cracking </li> 
+<li> How dangerous it is not to sanitize data before using it </li>
+<li> What a shadow file is on a unix system </li>
+<li> What directory/file traversal is </li>
+ </ol>
 
 Got Help on Brute Force from Frederick Moor
