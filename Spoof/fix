@@ -1,0 +1,19 @@
+How to Prevent an IP Spoofing Attack
+Ensuring that all IP addresses present on your network are legitimate can be a tall task but it is manageable. Dealing with IP spoofing attacks is reliant upon making a number of key changes to your day-to-day operations:
+
+--Use an access control list – An access control list allows you to deny private IP addresses
+     from interacting with your network. This will prevent many attacks from getting off the ground.
+
+
+--Packet Filtering – Packet filtering keeps coming up but is one of the best ways to control what traffic
+ is permitted on your network. By filtering traffic you can block traffic from suspicious sources.
+
+
+--Authentication – Authenticating interactions between devices on your network will help to make 
+    sure that nothing has been spoofed.
+
+
+--Change Router and Switch Configurations – Configure your routers and switches to reject incoming 
+    packets from outside of the local network which are spoofing an internal origination.
+
+https://www.comparitech.com/net-admin/spoofing-attacks-guide/#How_to_Prevent_an_IP_Spoofing_Attack
