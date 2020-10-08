@@ -22,4 +22,5 @@ SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES
 <li>column_default: Default value inserted in the column.</li>
 <li>is_nullable: Indicates whether the column can contain null or not.</li>
 </ul>
+
 A great place to learn more about information schema is [here](https://dev.mysql.com/doc/refman/8.0/en/information-schema.html)
