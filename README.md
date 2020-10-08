@@ -21,5 +21,5 @@ Interesting things learned during this project
 <li> What web indexing is</li>
  </ol>
 
-Got Help on Brute Force from Frederick Moor
-For scraping i got help from Nolin Reddy
+Got Help on Brute Force from [Frederick Moor](https://github.com/FWMoor/)
+For scraping i got help from [Nolin Reddy](https://github.com/nreddystudent/)
