@@ -18,6 +18,7 @@ Interesting things learned during this project
 <li> What scraping is </li>
 <li> What spoofing is </li>
 <li> What directory/file traversal is </li>
+<li> What web indexing is</li>
  </ol>
 
 Got Help on Brute Force from Frederick Moor
