@@ -2,15 +2,14 @@
 
 <p>Many high-profile data breaches in recent years have been the result of SQL injection attacks, leading to reputational damage and regulatory fines. In some cases, an attacker can obtain a persistent backdoor into an organization's systems, leading to a long-term compromise that can go unnoticed for an extended period.</p>
 <h2>SQL injection examples</h2>
-<h4>Although there is a very wide variety of SQL injection vulnerabilities,attacks, and techniques, which arise in different situations. We can look at five of the more common examples</h4>
+<h4>Although there is a very wide variety of SQL injection vulnerabilities,attacks, and techniques, which arise in different situations. We can look at four of the more common examples</h4>
 <ol>
 <li>Retrieving hidden data, (where you can modify an SQL query to return additional results.)</li>
 <li>Subverting application logic, (where you can change a query to interfere with the application's logic.)</li>
 <li>UNION attacks, (where you can retrieve data from different database tables.)</li>
 <li>Examining the database, (where you can extract information about the version and structure of the database.)</li>
-<li>Blind SQL injection, (where the results of a query you control are not returned in the application's responses.)</li>
 </ol>
-<h2>So lets get more into the smaller details of the five examples</h2>
+<h2>So lets get more into the smaller details of the four examples</h2>
 
 <ol>
 
@@ -87,6 +86,10 @@ In cases where the results of an SQL query are returned within the application's
 
 
 <h4>This will cause the application to return all usernames and passwords along with the names and descriptions of products.</h4>
+
+
+
+<h1>Examining Database</h1>
 
 Some cases the attacker might not know the names of the tables or metadata related to the application but they can make use of [information_schema](./information_schema.md)
 
