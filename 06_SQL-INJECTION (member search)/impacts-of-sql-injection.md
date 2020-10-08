@@ -10,10 +10,11 @@
 <li>Examining the database, (where you can extract information about the version and structure of the database.)</li>
 <li>Blind SQL injection, (where the results of a query you control are not returned in the application's responses.)</li>
 </ol>
-<h2>So lets get more into the smaller details</h2>
+<h2>So lets get more into the smaller details of the five examples</h2>
 
+<ol>
 
-<h1>Retrieving hidden data</h1>
+<li><h1>Retrieving hidden data</h1><li>
 <h3>Lets use a a shopping application that displays products in different categories as an example. With the following url</h3>
 <p>https://insecure-website.com/products?category=Gifts</p>
 <p>This will cause the application to make an SQL query to get details of the relevant products in a specific category from the database:</p>
@@ -41,4 +42,30 @@ The modified query will return all items where either the category is Gifts, or 
 </h4><br/>
 
 
-<h1></h1>
+<li><h1>Subverting application logic</h1></li>
+
+
+<h3>Lets use a login page on an application as an example,  one that takes a username and a password.  If we had to enter a username "Damian" and a password "CornIsYellow", the application checks the credentials by performing the following SQL query: </h3>
+
+<h2>
+    '''
+        SELECT * FROM users WHERE username = 'Damian' AND password = 'CornIsYellow' 
+    ''' 
+</h2>
+
+<h3>An attacker can log in as any user without even needing their password by adding a SQL comment so that it removes the password from the WHERE clause in the query </h3>
+
+<h4>Baring this in mind we can then simply log in as the admin user and not need the password by adding ( administrator'-- ) into the username field and leave the password blank. Doing that results in the following query</h4>
+
+<h2>
+    '''
+       SELECT * FROM users WHERE username = 'administrator'--' AND password = ''
+
+    ''' 
+    This query returns the user whose username is administrator and successfully logs the attacker in as that user.
+</h2>
+
+<li><h1>Union Attack</h1></li>
+
+
+</ol>
