@@ -62,10 +62,33 @@ The modified query will return all items where either the category is Gifts, or 
        SELECT * FROM users WHERE username = 'administrator'--' AND password = ''
 
     ''' 
-    This query returns the user whose username is administrator and successfully logs the attacker in as that user.
 </h2>
+   <p> This query returns the user whose username is administrator and successfully logs the attacker in as that user.</p>
 
 <li><h1>Union Attack</h1></li>
+
+<h3>
+In cases where the results of an SQL query are returned within the application's responses, an attacker can leverage an SQL injection vulnerability to retrieve data from other tables within the database. This is done using the UNION keyword, which lets you execute an additional SELECT query and append the results to the original query.
+</h3>
+
+<h3>For example, if an application executes the following query containing the user input "Gifts":</h3>
+
+<h4>SELECT name, description FROM products WHERE category = 'Gifts'</h4>
+
+<h3>then an attacker can submit the input:</h3>
+
+<h2>
+    '''
+     ' UNION SELECT username, password FROM users--
+
+    ''' 
+</h2>
+
+
+
+<h4>This will cause the application to return all usernames and passwords along with the names and descriptions of products.</h4>
+
+Some cases the attacker might not know the names of the tables or metadata related to the application but they can make use of [information_schema](./information_schema.md)
 
 
 </ol>
