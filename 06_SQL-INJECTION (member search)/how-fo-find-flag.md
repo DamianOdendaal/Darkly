@@ -5,7 +5,7 @@
 
 <ol>
 <li>Navigate to http://192.168.1.100/index.php?page=member</li>
-<li>Enter 1 or 1 = 1 inside search bar to test for basic sql injection</li>
+<li>Enter 1 or 1 = 1 inside search bar to test for basic sql injection, here you see results of the sql query in the application meaning the application is vulnerable to a union attack</li>
 <li>Try to get the name of the table using information_schema object</li>
     <p>Run the following script inside the search input field</p><br/>
     <p>
@@ -41,5 +41,5 @@
 </ol>
 
 
-<h3>Well done we found the first flag!</h3>
+<h3>Well done we found the sixth flag!</h3>
 
