@@ -14,7 +14,7 @@
 
 <ol>
 
-<li><h1>Retrieving hidden data</h1><li>
+<li><h1>Retrieving hidden data</h1></li>
 <h3>Lets use a a shopping application that displays products in different categories as an example. With the following url</h3>
 <p>https://insecure-website.com/products?category=Gifts</p>
 <p>This will cause the application to make an SQL query to get details of the relevant products in a specific category from the database:</p>
