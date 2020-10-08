@@ -1,1 +1,0 @@
-The redirect is being controlled by the backend, so rather have error handling before redirecting to validate if link is correct  
