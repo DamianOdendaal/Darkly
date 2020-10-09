@@ -1,8 +1,0 @@
-Step 1.)  navigate to /.hidden
-
-
-Step 2.) We see there is a lot of links to click , inside are README's where the flag exists in one of them
-
-Step 3.) run scraping.sh 
-
-Get the flag after all files have been downloaded 
