@@ -59,13 +59,31 @@ results.innerHTML = 'You searched for: ' + search;
 
 If the attacker can control the value of the input field, they can easily construct a malicious value that causes their own script to execute:
 
-You searched for: <img src=1 onerror='/* Bad stuff here... */'>
+You searched for:  <img src=1 onerror='/* Bad stuff here... */'>
 
 
 <h3>Note</h3>
 In a typical case, the input field would be populated from part of the HTTP request, such as a URL query string parameter, allowing the attacker to deliver an attack using a malicious URL, in the same manner as reflected XSS.
-
 </h4>
-
-
 </ol>
+
+
+<h1>What can XSS be used for</h1>
+<ul>
+<li>Impersonate or masquerade as the victim user.</li>
+<li>Carry out any action that the user is able to perform.</li>
+<li>Read any data that the user is able to access.</li>
+<li>Capture the user's login credentials.</li>
+<li>Perform virtual defacement of the web site.</li>
+<li>Inject trojan functionality into the web site.</li>
+</ul>
+
+
+<h1>Impact of Xss</h1>
+
+<ul>
+<h2>The actual impact of an XSS attack generally depends on the nature of the application, its functionality and data, and the status of the compromised user. Some Examples</h2>
+<li>In a brochureware application, where all users are anonymous and all information is public, the impact will often be minimal.</li>
+<li>In an application holding sensitive data, such as banking transactions, emails, or healthcare records, the impact will usually be serious.</li>
+<li>If the compromised user has elevated privileges within the application, then the impact will generally be critical, allowing the attacker to take full control of the vulnerable application and compromise all users and their data.</li>
+</ul>

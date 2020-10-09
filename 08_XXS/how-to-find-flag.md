@@ -12,9 +12,7 @@
 
 <li>Trying to do reflected Xss didnt work,  entering script into url </li>
 
-<li>Trying to do reflected Xss didnt work,  entering script into url </li>
-
-<li>Trying to do reflected Xss didnt work,  entering script into url </li>
+<li>Trying to do persistent Xss didnt work,  entering script into url </li>
 
 <li>In messing around,  inside the name or the comment field you can put any characters from the words
 alert or script,  but they must be in order,  the whole word need not be there for the flag to appear </li>
