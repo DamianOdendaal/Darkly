@@ -1,4 +1,9 @@
 <ul>
 <li>https://portswigger.net/web-security/cross-site-scripting</li>
-<li></li>
+<li>https://owasp.org/www-community/attacks/xss/</li>
+<li>https://www.veracode.com/security/xss</li>
+<li>https://www.imperva.com/learn/application-security/cross-site-scripting-xss-attacks/</li>
+<li>https://www.ptsecurity.com/ww-en/analytics/knowledge-base/what-is-a-cross-site-scripting-xss-attack/</li>
+<li>https://www.google.com/about/appsecurity/learning/xss/</li>
+<li>https://www.myrasecurity.com/en/what-is-cross-site-scripting/</li>
 </ul>
