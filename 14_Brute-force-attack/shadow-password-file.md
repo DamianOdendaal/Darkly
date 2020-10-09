@@ -1,15 +1,4 @@
-
-
-Step 1: navigate to the http://192.168.1.100/?page=signin
-
-Step 2: open up your terminal and run crack.sh,  in there we loop over the most common passwords according to wikipedia
-
-Step 3: Flag will appear while the script is running
-
-Well done we cracked the admin password
-
-
-'''
+'''<br/>
     Something to note 
     
     shadow which was the password for admin means something on Unix systems,  that means shadowed password
@@ -25,7 +14,5 @@ Well done we cracked the admin password
     Another thing to note is according to wikipedia shadow is one of the most used passwords, so maybe steer cleer 
 
     Run man shadow to learn a little more about the Unix shadow password file
-
-
-
+<br/>
 '''
